@@ -32,3 +32,15 @@ html::-webkit-scrollbar-thumb {
     background: var(--main);
     border-radius: 5rem;
 }
+
+/* header */
+
+.header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+}
