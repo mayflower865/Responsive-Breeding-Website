@@ -22,3 +22,13 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
 }
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+    background: var(--main);
+    border-radius: 5rem;
+}
