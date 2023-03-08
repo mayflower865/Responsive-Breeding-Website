@@ -7,3 +7,10 @@
     --white: #fff;
     --box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+* {
+    font-family: "roboto", san-serif;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
